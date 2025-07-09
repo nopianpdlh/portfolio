@@ -1,0 +1,267 @@
+{
+    "id": "app-travel-camp",
+    "title": "Hilink",
+    "description": "Travel Camp is a modern and responsive travel website built using Next.js 13, React 18, Tailwind CSS, and TypeScript. This project serves as a clean and minimal starting point for creating a travel-related web app or landing page.",
+    "repoUrl": "https://github.com/nopianpdlh/app-travel-camp",
+    "liveUrl": "https://travel-app-eight-iota.vercel.app",
+    "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "React"
+    ],
+    "structure": {
+        "root": "app-travel-camp",
+        "children": [
+            {
+                "name": ".gitignore",
+                "type": "file"
+            },
+            {
+                "name": "README.md",
+                "type": "file"
+            },
+            {
+                "name": "app",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globals.css",
+                        "type": "file"
+                    },
+                    {
+                        "name": "layout.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "page.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "components",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "Button.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Camp.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Features.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Footer.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "GetApp.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Guide.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Hero.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Navbar.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "constants",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "index.ts",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "next.config.js",
+                "type": "file"
+            },
+            {
+                "name": "package-lock.json",
+                "type": "file"
+            },
+            {
+                "name": "package.json",
+                "type": "file"
+            },
+            {
+                "name": "postcss.config.js",
+                "type": "file"
+            },
+            {
+                "name": "public",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "android.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "apple.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "boat.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "calendar.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "camp.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "close.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "facebook.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "feature-bg.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "folded-map.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "hero-bg.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "hero.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "hilink-logo.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "img-1.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "img-2.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "instagram.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "location.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "map.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "menu.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "meter.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "pattern-bg.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "pattern.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "person-1.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "person-2.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "person-3.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "person-4.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "phone.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "phones.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "play.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "quote.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "star.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "tech.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "twitter.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "user.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "wordpress.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "youtube.svg",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "tailwind.config.js",
+                "type": "file"
+            },
+            {
+                "name": "tsconfig.json",
+                "type": "file"
+            }
+        ]
+    },
+    "images": []
+}

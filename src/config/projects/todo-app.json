@@ -1,0 +1,170 @@
+{
+    "id": "todo-app",
+    "title": "todo-app",
+    "description": "Todo App is a modern and minimalist task management application built using Next.js 15, React 19, Tailwind CSS v4, and enhanced with @dnd-kit for smooth drag-and-drop functionality.This app provides a clean and responsive interface to manage your daily tasks efficiently.",
+    "repoUrl": "https://github.com/nopianpdlh/todo-app",
+    "liveUrl": "https://todo-app-rho-liard-53.vercel.app",
+    "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "React",
+        "Vercel"
+    ],
+    "structure": {
+        "root": "todo-app",
+        "children": [
+            {
+                "name": ".gitignore",
+                "type": "file"
+            },
+            {
+                "name": "README.md",
+                "type": "file"
+            },
+            {
+                "name": "components",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "Button.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "Column.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ModalConfirm.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ModalTask.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "TaskCard.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "constants",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "Task.constants.ts",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "eslint.config.mjs",
+                "type": "file"
+            },
+            {
+                "name": "next.config.ts",
+                "type": "file"
+            },
+            {
+                "name": "package.json",
+                "type": "file"
+            },
+            {
+                "name": "pages",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "_app.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "_document.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "api",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "hello.ts",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "index.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "pnpm-lock.yaml",
+                "type": "file"
+            },
+            {
+                "name": "postcss.config.mjs",
+                "type": "file"
+            },
+            {
+                "name": "public",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "file.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globe.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "next.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "vercel.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "window.svg",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "styles",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "globals.css",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "tailwind.config.ts",
+                "type": "file"
+            },
+            {
+                "name": "tsconfig.json",
+                "type": "file"
+            },
+            {
+                "name": "types",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "Task.d.ts",
+                        "type": "file"
+                    }
+                ]
+            }
+        ]
+    },
+    "images": []
+}

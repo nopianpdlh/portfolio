@@ -1,0 +1,166 @@
+{
+    "id": "landingpage-nextjs-tailwind-ts",
+    "title": "Landing Page",
+    "description": " Landing Page App \u2014 Built with Next.js 15, React 19, and Tailwind CSS 4 Landing Page App is a modern landing page project built with Next.js 15.3, React 19, Tailwind CSS v4, and TypeScript. It\u2019s perfect as a boilerplate or starting point for creating product websites, personal portfolios, or startup promo pages.",
+    "repoUrl": "https://github.com/nopianpdlh/landingpage-nextjs-tailwind-ts",
+    "liveUrl": "https://landingpage-nextjs-tailwind-ts.vercel.app",
+    "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "React",
+        "Vercel"
+    ],
+    "structure": {
+        "root": "landingpage-nextjs-tailwind-ts",
+        "children": [
+            {
+                "name": ".gitignore",
+                "type": "file"
+            },
+            {
+                "name": "README.md",
+                "type": "file"
+            },
+            {
+                "name": "app",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globals.css",
+                        "type": "file"
+                    },
+                    {
+                        "name": "layout.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "page.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "eslint.config.mjs",
+                "type": "file"
+            },
+            {
+                "name": "next.config.ts",
+                "type": "file"
+            },
+            {
+                "name": "package.json",
+                "type": "file"
+            },
+            {
+                "name": "pnpm-lock.yaml",
+                "type": "file"
+            },
+            {
+                "name": "postcss.config.mjs",
+                "type": "file"
+            },
+            {
+                "name": "public",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "file.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globe.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "img",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "bootstrap.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "dribbble.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "envato.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "footer.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "hero.jpg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "iconClose.svg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "iconHamburger.svg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "instagram.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "jquery.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "logo.png",
+                                "type": "file"
+                            },
+                            {
+                                "name": "person1.jpg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "person2.jpg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "person3.jpg",
+                                "type": "file"
+                            },
+                            {
+                                "name": "stat.jpg",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "next.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "vercel.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "window.svg",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "tailwind.config.ts",
+                "type": "file"
+            },
+            {
+                "name": "tsconfig.json",
+                "type": "file"
+            }
+        ]
+    },
+    "images": []
+}

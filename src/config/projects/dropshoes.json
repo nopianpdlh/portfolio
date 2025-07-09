@@ -1,0 +1,803 @@
+{
+    "id": "dropshoes",
+    "title": "DropShoes",
+    "description": "DropShoes is a minimal and responsive e-commerce web application for showcasing and selling shoes online. Built with Next.js, Tailwind CSS, React, Prisma, Stripe, and TypeScript.",
+    "repoUrl": "https://github.com/nopianpdlh/dropshoes",
+    "liveUrl": "https://dropshoes.vercel.app",
+    "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "React",
+        "Prisma",
+        "Stripe"
+    ],
+    "structure": {
+        "root": "dropshoes",
+        "children": [
+            {
+                "name": ".gitignore",
+                "type": "file"
+            },
+            {
+                "name": "README.md",
+                "type": "file"
+            },
+            {
+                "name": "app",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "admin",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "categories",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "layout.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "products",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "[id]",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "edit",
+                                                "type": "directory",
+                                                "children": [
+                                                    {
+                                                        "name": "page.tsx",
+                                                        "type": "file"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "create",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "page.tsx",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "users",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "api",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "admin",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "categories",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "[categoryId]",
+                                                "type": "directory",
+                                                "children": [
+                                                    {
+                                                        "name": "route.ts",
+                                                        "type": "file"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "dashboard",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "products",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "[id]",
+                                                "type": "directory",
+                                                "children": [
+                                                    {
+                                                        "name": "route.ts",
+                                                        "type": "file"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "users",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "[userId]",
+                                                "type": "directory",
+                                                "children": [
+                                                    {
+                                                        "name": "reset-password",
+                                                        "type": "directory",
+                                                        "children": [
+                                                            {
+                                                                "name": "route.ts",
+                                                                "type": "file"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "name": "route.ts",
+                                                        "type": "file"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "auth",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "[...nextauth]",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "me",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "register",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "cart",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "count",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "items",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "[itemId]",
+                                                "type": "directory",
+                                                "children": [
+                                                    {
+                                                        "name": "route.ts",
+                                                        "type": "file"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "route.ts",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "categories",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "route.ts",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "checkout",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "route.ts",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "sessions",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "debug",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "orders",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "webhooks",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "stripe",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "route.ts",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "auth",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "login",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "register",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "cart",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "CartClient.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "CartItems.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "checkout",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "CheckoutForm.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "cancel",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "success",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "components",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "admin",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "AdminNavbar.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "home",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "CategorySection.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "FilterPanel.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "HeroSection.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "ProductGrid.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "layout",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "Footer.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "Navbar.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "product",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "AddToCartButton.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "ProductCard.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "ProductDetail.tsx",
+                                        "type": "file"
+                                    },
+                                    {
+                                        "name": "ProductGrid.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globals.css",
+                        "type": "file"
+                    },
+                    {
+                        "name": "layout.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "orders",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "OrderList.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "page.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "products",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "[id]",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "providers.tsx",
+                        "type": "file"
+                    },
+                    {
+                        "name": "shop",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "products",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "store",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "cart.ts",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "types",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "index.ts",
+                                "type": "file"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "favicon.ico",
+                "type": "file"
+            },
+            {
+                "name": "lib",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "auth.ts",
+                        "type": "file"
+                    },
+                    {
+                        "name": "prisma.ts",
+                        "type": "file"
+                    },
+                    {
+                        "name": "utils.ts",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "middleware.ts",
+                "type": "file"
+            },
+            {
+                "name": "next.config.js",
+                "type": "file"
+            },
+            {
+                "name": "package-lock.json",
+                "type": "file"
+            },
+            {
+                "name": "package.json",
+                "type": "file"
+            },
+            {
+                "name": "postcss.config.js",
+                "type": "file"
+            },
+            {
+                "name": "prisma",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "migrations",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "20250515180126_ecommerce",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "migration.sql",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "20250516143447_add_unique_product_name",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "migration.sql",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "20250517104346_add_category_timestamps",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "migration.sql",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "20250517150405_update_category_unique_constraint",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "migration.sql",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "20250604171429_add_customer_details",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "migration.sql",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "migration_lock.toml",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "schema.prisma",
+                        "type": "file"
+                    },
+                    {
+                        "name": "seed.ts",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "public",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "adidas1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "adidas2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "airmax.gif",
+                        "type": "file"
+                    },
+                    {
+                        "name": "cw1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "cw2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ff1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "hehe.gif",
+                        "type": "file"
+                    },
+                    {
+                        "name": "logo-removebg-preview.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "logo.png",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nb1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nb2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nb3.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nb4.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "new1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "new2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "new3.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "new4.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nike1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nike2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "nike3.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ss1.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ss2.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ss3.jpg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "ss4.jpg",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "tailwind.config.js",
+                "type": "file"
+            },
+            {
+                "name": "tsconfig.json",
+                "type": "file"
+            }
+        ]
+    },
+    "images": []
+}
