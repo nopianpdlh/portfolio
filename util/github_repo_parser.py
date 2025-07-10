@@ -79,12 +79,12 @@ def main():
     # Example project details
     project_json = parser.create_project_json(
         owner='nopianpdlh', #dont forget to change this to your github username
-        repo='landingpage-nextjs-tailwind-ts', #dont forget to change this to your github repo name
-        title='Landing Page', #dont forget to change this to your project title
-        description=' Landing Page App — Built with Next.js 15, React 19, and Tailwind CSS 4 Landing Page App is a modern landing page project built with Next.js 15.3, React 19, Tailwind CSS v4, and TypeScript. It’s perfect as a boilerplate or starting point for creating product websites, personal portfolios, or startup promo pages.', #dont forget to change this to your project description
-        repo_url='https://github.com/nopianpdlh/landingpage-nextjs-tailwind-ts', #dont forget to change this to your github repo url
-        live_url='https://landingpage-nextjs-tailwind-ts.vercel.app', #dont forget to change this to your live website url or leave it blank if you dont have one
-        tech_stack=['Next.js', 'Tailwind CSS', 'TypeScript', 'React' , 'Vercel'] #dont forget to change this to your project tech stack
+        repo='portfolio', #dont forget to change this to your github repo name
+        title='Portfolio (This Website)', #dont forget to change this to your project title
+        description='An open source interactive portfolio website, with a clean and modern design, sections for education, experience, skills and more. Built with Astro.js, Tailwind CSS, TypeScript, React, and Vercel.', #dont forget to change this to your project description
+        repo_url='https://github.com/nopianpdlh/portfolio', #dont forget to change this to your github repo url
+        live_url='https://nopianpdlh.vercel.app', #dont forget to change this to your live website url or leave it blank if you dont have one
+        tech_stack=['Astro.js', 'Tailwind CSS', 'TypeScript', 'React', 'Vercel'] #dont forget to change this to your project tech stack
     )
 
     # Save project JSON and get the path
