@@ -43,7 +43,7 @@ export const userConfig = {
 
   // Resume Configuration
   resume: {
-    url: "https://drive.google.com/file/d/1ruKx19cpnf_EmqLl2ZSHmjwfCbk6Hn_Y/view",
+    url: "https://drive.google.com/file/d/1vCpEvyFaSJLRkSqhw2X5p2OqAzjUa36O/view",
     localPath: "/nopianpdlh-resume.pdf",
   },
 
@@ -78,6 +78,20 @@ export const userConfig = {
         {
           url: "https://res.cloudinary.com/djuiqpinc/image/upload/v1752000415/Coursera_QL54HNHAXE9J_page-0001_cblr8z.jpg",
           alt: "Coursera",
+          // description: "Coursera Logo"
+        },
+      ],
+    },
+    {
+      title: "RevoU Coding Camp",
+      description: "",
+      institution: "Intro to Software Engineering",
+      location: "",
+      year: "2025",
+      images: [
+        {
+          url: "https://res.cloudinary.com/djuiqpinc/image/upload/v1752134563/SECC_novianfadhilah03gmail.com_CCSE300625-01-1-00143_page-0001_rkbzf9.jpg",
+          alt: "RevoU Coding Camp",
           // description: "Coursera Logo"
         },
       ],
