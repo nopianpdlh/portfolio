@@ -559,6 +559,7 @@ export const userConfig = {
 
   // Projects Configuration
   projects: [
+    portfolio,
     dropshoes,
     appTravelCamp,
     landingpageNextjsTailwindTs,
