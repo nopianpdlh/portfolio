@@ -1,12 +1,5 @@
-import neurospeccompanionmerged from "./projects/neurospeccompanionmerged.json";
-import scheds from "./projects/scheds.json";
-import fadedTextRestoration from "./projects/fadedtextrestoration.json";
-import clinicalmain from "./projects/clinicalmain.json";
-import seatReservation from "./projects/seatreservation.json";
-import nucpaBalloons from "./projects/nucpa-balloons.json";
-import nucpaBalloonsApi from "./projects/nucpaballoonsapi.json";
+
 import portfolio from "./projects/portfolio.json";
-import foodies from "./projects/foodies.json";
 import dropshoes from "./projects/dropshoes.json";
 import appTravelCamp from "./projects/app-travel-camp.json";
 import landingpageNextjsTailwindTs from "./projects/landingpage-nextjs-tailwind-ts.json";
