@@ -11,6 +11,7 @@ import dropshoes from "./projects/dropshoes.json";
 import appTravelCamp from "./projects/app-travel-camp.json";
 import landingpageNextjsTailwindTs from "./projects/landingpage-nextjs-tailwind-ts.json";
 import todoApp from "./projects/todo-app.json";
+import agriGearManager from "./projects/agri-gear-manager.json";
 
 export const userConfig = {
   // Personal Information
@@ -578,6 +579,7 @@ export const userConfig = {
     appTravelCamp,
     landingpageNextjsTailwindTs,
     todoApp,
+    agriGearManager,
 
     // Add more projects here
   ],
