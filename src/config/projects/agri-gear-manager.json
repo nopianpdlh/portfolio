@@ -1,0 +1,512 @@
+{
+    "id": "agri-gear-manager",
+    "title": "agri-gear-manager",
+    "description": "Agri-Gear Manager is a web-based agricultural equipment and inventory management system designed to help farmers, farmer groups, or cooperatives efficiently manage their assets. The application is built with a modern technology stack to ensure optimal performance, security, and user experience.",
+    "repoUrl": "https://github.com/nopianpdlh/agri-gear-manager",
+    "liveUrl": "https://agri-gear-manager.vercel.app/",
+    "techStack": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Shadcn UI",
+        "Supabase (PostgreSQL, Auth, Storage)",
+        "React",
+        "Vercel"
+    ],
+    "structure": {
+        "root": "agri-gear-manager",
+        "children": [
+            {
+                "name": ".gitignore",
+                "type": "file"
+            },
+            {
+                "name": ".vscode",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "settings.json",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "README.md",
+                "type": "file"
+            },
+            {
+                "name": "app",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "(auth)",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "login",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "register",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "reset-password",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "(dashboard)",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "borrowing",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "dashboard",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "equipment",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "[id]",
+                                        "type": "directory",
+                                        "children": [
+                                            {
+                                                "name": "page.tsx",
+                                                "type": "file"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "history",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "layout.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "maintenance",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "requests",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "users",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "page.tsx",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "(marketing)",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "layout.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "page.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "[locale]",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "not-found.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "actions.ts",
+                        "type": "file"
+                    },
+                    {
+                        "name": "auth",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "callback",
+                                "type": "directory",
+                                "children": [
+                                    {
+                                        "name": "route.ts",
+                                        "type": "file"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "favicon.ico",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globals.css",
+                        "type": "file"
+                    },
+                    {
+                        "name": "layout.tsx",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "components.json",
+                "type": "file"
+            },
+            {
+                "name": "components",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "shared",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "AddCostDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "AddEquipmentDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "AddSparePartDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "BorrowEquipmentDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "CostActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "CostExportActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "DashboardClientLayout.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "EditEquipmentDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "EquipmentActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "EquipmentExportActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "EquipmentFilters.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "ExportButton.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "ExportPdfButton.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "Header.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "HistoryExportActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "LogoutButton.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "MaintenanceActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "MaintenanceExportActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "NoSSR.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "PopularEquipmentChart.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "RequestActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "ScheduleMaintenanceDialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "Sidebar.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "SparePartActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "SparePartExportActions.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "UserActions.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ui",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "alert-dialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "badge.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "button.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "calendar.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "card.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "chart.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "checkbox.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "dialog.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "dropdown-menu.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "form.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "input.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "label.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "popover.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "progress.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "select.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "sonner.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "table.tsx",
+                                "type": "file"
+                            },
+                            {
+                                "name": "textarea.tsx",
+                                "type": "file"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "lib",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "next-types.ts",
+                        "type": "file"
+                    },
+                    {
+                        "name": "supabase",
+                        "type": "directory",
+                        "children": [
+                            {
+                                "name": "client.ts",
+                                "type": "file"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "types.ts",
+                        "type": "file"
+                    },
+                    {
+                        "name": "utils.ts",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "middleware.ts",
+                "type": "file"
+            },
+            {
+                "name": "next.config.ts",
+                "type": "file"
+            },
+            {
+                "name": "package-lock.json",
+                "type": "file"
+            },
+            {
+                "name": "package.json",
+                "type": "file"
+            },
+            {
+                "name": "postcss.config.mjs",
+                "type": "file"
+            },
+            {
+                "name": "public",
+                "type": "directory",
+                "children": [
+                    {
+                        "name": "file.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "globe.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "next.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "rice-field-amico.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "rice-field-bro.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "vercel.svg",
+                        "type": "file"
+                    },
+                    {
+                        "name": "window.svg",
+                        "type": "file"
+                    }
+                ]
+            },
+            {
+                "name": "tsconfig.json",
+                "type": "file"
+            }
+        ]
+    },
+    "images": []
+}

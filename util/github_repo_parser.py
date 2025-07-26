@@ -1,3 +1,5 @@
+#  util/github_repo_parser.py
+
 import requests
 import json
 import os
@@ -79,12 +81,12 @@ def main():
     # Example project details
     project_json = parser.create_project_json(
         owner='nopianpdlh', #dont forget to change this to your github username
-        repo='portfolio', #dont forget to change this to your github repo name
-        title='Portfolio (This Website)', #dont forget to change this to your project title
-        description='An open source interactive portfolio website, with a clean and modern design, sections for education, experience, skills and more. Built with Astro.js, Tailwind CSS, TypeScript, React, and Vercel.', #dont forget to change this to your project description
-        repo_url='https://github.com/nopianpdlh/portfolio', #dont forget to change this to your github repo url
-        live_url='https://nopianpdlh.vercel.app', #dont forget to change this to your live website url or leave it blank if you dont have one
-        tech_stack=['Astro.js', 'Tailwind CSS', 'TypeScript', 'React', 'Vercel'] #dont forget to change this to your project tech stack
+        repo='agri-gear-manager', #dont forget to change this to your github repo name
+        title='agri-gear-manager', #dont forget to change this to your project title
+        description='Agri-Gear Manager is a web-based agricultural equipment and inventory management system designed to help farmers, farmer groups, or cooperatives efficiently manage their assets. The application is built with a modern technology stack to ensure optimal performance, security, and user experience.', #dont forget to change this to your project description
+        repo_url='https://github.com/nopianpdlh/agri-gear-manager', #dont forget to change this to your github repo url
+        live_url='https://agri-gear-manager.vercel.app/', #dont forget to change this to your live website url or leave it blank if you dont have one
+        tech_stack=['Next.js', 'Tailwind CSS', 'TypeScript', 'Shadcn UI','Supabase (PostgreSQL, Auth, Storage)', 'React', 'Vercel'] #dont forget to change this to your project tech stack
     )
 
     # Save project JSON and get the path
